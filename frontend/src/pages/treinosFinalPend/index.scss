@@ -1,0 +1,34 @@
+.pagina-treinos-finpen{
+    background-image: url('../../../public/assets/images/fundo.jpg');
+    min-height: 100vh;
+
+    .secaomae{
+
+        .secaoConcluidos{
+            .final{
+              width: 2em;
+            }
+
+            h1{
+                color: #fff;
+            }
+        }
+
+        .secaoPendentes{
+            .pend{
+                width: 1.85em;
+            }
+            
+            h1{
+                color: #fff;
+            }
+        }
+
+        .titulo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 8px;
+        }
+    }
+}

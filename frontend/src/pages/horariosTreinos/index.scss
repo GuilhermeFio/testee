@@ -1,0 +1,66 @@
+.pagina-horarios-treinos{
+    background-image: url('../../../public/assets/images/fundo.jpg');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+
+    h1{
+        color: #ffffff
+    }
+
+    h2{
+        color: #ffffff
+    }
+
+    .secaomae{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vh;
+        padding: 4vh;
+
+        .secao1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2vh;
+
+     
+            .irAddTreino{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 1vh;
+
+                .add{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 2.5vh;
+                }
+            }
+        }
+
+        .secaotreinos{
+            display: flex;
+            flex-direction: column;
+            gap: 4vh;
+            
+            .titulo{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .treinosMarcados{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+            }
+        }
+            
+        .seta{
+            width: 30px;
+        }
+    }
+}
